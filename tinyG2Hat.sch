@@ -11957,7 +11957,7 @@ W = angled&lt;p&gt;
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="MOTOR_POWER" library="RepRapjr" deviceset="RAPC712" device="0"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
@@ -11968,7 +11968,7 @@ W = angled&lt;p&gt;
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="U$3" library="RepRapjr" deviceset="A4988BREAKOUT" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="NB_STEP_CONFIG_M3" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP03YL" device="" package3d_urn="urn:adsk.eagle:package:27256/2"/>
@@ -11976,7 +11976,7 @@ W = angled&lt;p&gt;
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="U$4" library="RepRapjr" deviceset="A4988BREAKOUT" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="NB_STEP_CONFIG_M4" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP03YL" device="" package3d_urn="urn:adsk.eagle:package:27256/2"/>
@@ -11984,7 +11984,7 @@ W = angled&lt;p&gt;
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="U$5" library="RepRapjr" deviceset="A4988BREAKOUT" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="NB_STEP_CONFIG_M5" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP03YL" device="" package3d_urn="urn:adsk.eagle:package:27256/2"/>
@@ -11992,7 +11992,7 @@ W = angled&lt;p&gt;
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="U$6" library="RepRapjr" deviceset="A4988BREAKOUT" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="NB_STEP_CONFIG_M6" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP03YL" device="" package3d_urn="urn:adsk.eagle:package:27256/2"/>
@@ -12000,7 +12000,7 @@ W = angled&lt;p&gt;
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="M6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100µF"/>
 <part name="SPINDLE_OUTPUTS" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-2" device="" package3d_urn="urn:adsk.eagle:package:8368/1"/>
@@ -12854,29 +12854,6 @@ Compatible with A4988 pinout</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="1"/>
-<wire x1="162.56" y1="-17.78" x2="149.86" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-17.78" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="3"/>
-<wire x1="149.86" y1="-20.32" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-22.86" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-25.4" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-27.94" x2="149.86" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-20.32" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="149.86" y="-20.32"/>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="5"/>
-<wire x1="162.56" y1="-22.86" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="149.86" y="-22.86"/>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="7"/>
-<wire x1="162.56" y1="-25.4" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="149.86" y="-25.4"/>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="9"/>
-<wire x1="162.56" y1="-27.94" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="149.86" y="-27.94"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="149.86" y1="-33.02" x2="149.86" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="RESET_SWITCH" gate="1" pin="GND2"/>
 <wire x1="203.2" y1="-30.48" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -12887,6 +12864,29 @@ Compatible with A4988 pinout</text>
 <wire x1="213.36" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="215.9" y1="-30.48" x2="215.9" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="1"/>
+<wire x1="162.56" y1="-17.78" x2="149.86" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-17.78" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="3"/>
+<wire x1="149.86" y1="-20.32" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-22.86" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-25.4" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-20.32" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="149.86" y="-20.32"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="5"/>
+<wire x1="162.56" y1="-22.86" x2="149.86" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="149.86" y="-22.86"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="7"/>
+<wire x1="162.56" y1="-25.4" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="149.86" y="-25.4"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="9"/>
+<wire x1="162.56" y1="-27.94" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="149.86" y1="-33.02" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="149.86" y="-27.94"/>
+<junction x="149.86" y="-33.02"/>
 </segment>
 </net>
 <net name="RESET" class="0">
