@@ -11944,7 +11944,6 @@ W = angled&lt;p&gt;
 <parts>
 <part name="ARDUINO_DUE1" library="arduino_due_shield" deviceset="ARDUINO_DUE_SHIELD_NOSPI" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -12032,9 +12031,6 @@ Compatible with A4988 pinout</text>
 <instance part="ARDUINO_DUE1" gate="G$1" x="96.52" y="35.56"/>
 <instance part="+3V1" gate="G$1" x="38.1" y="111.76" smashed="yes" rot="R90">
 <attribute name="VALUE" x="38.1" y="111.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+1" gate="1" x="38.1" y="109.22" smashed="yes" rot="R90">
-<attribute name="VALUE" x="38.1" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="40.64" y="101.6"/>
 <instance part="P+2" gate="1" x="160.02" y="17.78" smashed="yes" rot="R180">
@@ -12127,9 +12123,9 @@ Compatible with A4988 pinout</text>
 <instance part="S2" gate="1" x="386.08" y="-5.08" rot="R270"/>
 <instance part="CONTROL_SWITCHES_INPUTS" gate="A" x="165.1" y="-22.86"/>
 <instance part="GND13" gate="1" x="149.86" y="-35.56"/>
-<instance part="RESET_SWITCH" gate="1" x="208.28" y="-27.94" rot="R270"/>
-<instance part="GND14" gate="1" x="200.66" y="-35.56"/>
-<instance part="GND15" gate="1" x="215.9" y="-35.56"/>
+<instance part="RESET_SWITCH" gate="1" x="213.36" y="-17.78" rot="R270"/>
+<instance part="GND14" gate="1" x="205.74" y="-25.4"/>
+<instance part="GND15" gate="1" x="220.98" y="-25.4"/>
 </instances>
 <busses>
 </busses>
@@ -12697,11 +12693,6 @@ Compatible with A4988 pinout</text>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="ARDUINO_DUE1" gate="G$1" pin="5V"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="40.64" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="5V@1"/>
 <wire x1="106.68" y1="25.4" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
@@ -12855,15 +12846,15 @@ Compatible with A4988 pinout</text>
 </segment>
 <segment>
 <pinref part="RESET_SWITCH" gate="1" pin="GND2"/>
-<wire x1="203.2" y1="-30.48" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-20.32" x2="205.74" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="200.66" y1="-30.48" x2="200.66" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-20.32" x2="205.74" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RESET_SWITCH" gate="1" pin="GND1"/>
-<wire x1="213.36" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-20.32" x2="220.98" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-30.48" x2="215.9" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-20.32" x2="220.98" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="1"/>
@@ -12897,8 +12888,8 @@ Compatible with A4988 pinout</text>
 </segment>
 <segment>
 <pinref part="RESET_SWITCH" gate="1" pin="S"/>
-<wire x1="213.36" y1="-27.94" x2="223.52" y2="-27.94" width="0.1524" layer="91"/>
-<label x="223.52" y="-27.94" size="1.778" layer="95"/>
+<wire x1="218.44" y1="-17.78" x2="228.6" y2="-17.78" width="0.1524" layer="91"/>
+<label x="228.6" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13325,9 +13316,9 @@ Compatible with A4988 pinout</text>
 <label x="25.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="2"/>
-<wire x1="170.18" y1="-17.78" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
-<label x="182.88" y="-17.78" size="1.778" layer="95"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="10"/>
+<wire x1="170.18" y1="-27.94" x2="182.88" y2="-27.94" width="0.1524" layer="91"/>
+<label x="182.88" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CY_START" class="0">
@@ -13354,9 +13345,9 @@ Compatible with A4988 pinout</text>
 <label x="403.86" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="8"/>
-<wire x1="170.18" y1="-25.4" x2="182.88" y2="-25.4" width="0.1524" layer="91"/>
-<label x="182.88" y="-25.4" size="1.778" layer="95"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="4"/>
+<wire x1="170.18" y1="-20.32" x2="182.88" y2="-20.32" width="0.1524" layer="91"/>
+<label x="182.88" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="H_INTERLCK" class="0">
@@ -13425,21 +13416,21 @@ Compatible with A4988 pinout</text>
 </net>
 <net name="FEED_HOLD" class="0">
 <segment>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="4"/>
-<wire x1="170.18" y1="-20.32" x2="182.88" y2="-20.32" width="0.1524" layer="91"/>
-<label x="182.88" y="-20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="ARDUINO_DUE1" gate="G$1" pin="AN1"/>
 <wire x1="50.8" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="25.4" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="8"/>
+<wire x1="170.18" y1="-25.4" x2="182.88" y2="-25.4" width="0.1524" layer="91"/>
+<label x="182.88" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="10"/>
+<pinref part="CONTROL_SWITCHES_INPUTS" gate="A" pin="2"/>
 <pinref part="RESET_SWITCH" gate="1" pin="P"/>
-<wire x1="170.18" y1="-27.94" x2="203.2" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-17.78" x2="208.28" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
