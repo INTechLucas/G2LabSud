@@ -178,29 +178,29 @@
 <text x="65.405" y="27.051" size="0.8128" layer="21">____________</text>
 <text x="63.754" y="33.274" size="0.8128" layer="21" align="center">Step
 config</text>
-<text x="30.48" y="29.464" size="1.016" layer="21" rot="R180" align="center">Mot 1</text>
-<text x="55.88" y="29.464" size="1.016" layer="21" rot="R180" align="center">Mot 2</text>
-<text x="81.28" y="29.464" size="1.016" layer="21" rot="R180" align="center">Mot 3</text>
-<text x="30.48" y="6.604" size="1.016" layer="21" rot="R180" align="center">Mot 4</text>
-<text x="55.88" y="6.604" size="1.016" layer="21" rot="R180" align="center">Mot 5</text>
-<text x="81.28" y="6.604" size="1.016" layer="21" rot="R180" align="center">Mot 6</text>
+<text x="30.48" y="29.464" size="1.016" layer="21" rot="R180" align="center">MOTOR 1</text>
+<text x="55.88" y="29.464" size="1.016" layer="21" align="center">MOTOR 2</text>
+<text x="81.28" y="29.464" size="1.016" layer="21" rot="R180" align="center">MOTOR 3</text>
+<text x="30.48" y="6.604" size="1.016" layer="21" rot="R180" align="center">MOTOR 4</text>
+<text x="55.88" y="6.604" size="1.016" layer="21" rot="R180" align="center">MOTOR 5</text>
+<text x="81.28" y="6.604" size="1.016" layer="21" rot="R180" align="center">MOTOR 6</text>
 <text x="19.812" y="3.81" size="1.016" layer="21" rot="R180" align="center">Reset</text>
 <text x="1.778" y="19.05" size="1.4224" layer="21" rot="SR270" align="center">+24V</text>
-<text x="0.254" y="23.114" size="0.6096" layer="21">Soft-Reset</text>
-<text x="0.254" y="25.654" size="0.6096" layer="21">Feed-Hold</text>
-<text x="1.778" y="28.194" size="0.6096" layer="21">Y-start</text>
-<text x="4.318" y="30.988" size="0.6096" layer="21" align="center-right">Emergency
-Stop</text>
-<text x="2.032" y="33.274" size="0.6096" layer="21">Reset</text>
+<text x="3.81" y="22.352" size="0.8128" layer="21" align="bottom-right">Soft
+Reset</text>
+<text x="1.524" y="25.654" size="0.8128" layer="21">Hold</text>
+<text x="1.778" y="28.194" size="0.8128" layer="21">Run</text>
+<text x="3.81" y="30.988" size="0.8128" layer="21" align="center-right">Stop</text>
+<text x="0.762" y="33.274" size="0.8128" layer="21">Reset</text>
 <wire x1="9.652" y1="47.752" x2="10.16" y2="47.244" width="0.254" layer="21"/>
 <wire x1="10.16" y1="47.244" x2="10.16" y2="38.354" width="0.254" layer="21"/>
 <wire x1="10.16" y1="38.354" x2="9.652" y2="37.846" width="0.254" layer="21"/>
 <text x="10.414" y="45.212" size="1.016" layer="21" rot="SR270">Spindle</text>
-<text x="1.524" y="38.862" size="0.6096" layer="21">Enable</text>
-<text x="3.556" y="41.402" size="0.6096" layer="21">Dir</text>
-<text x="2.54" y="43.942" size="0.6096" layer="21">PWM</text>
-<text x="1.778" y="46.482" size="0.6096" layer="21">PWM 2</text>
-<text x="1.778" y="49.022" size="0.6096" layer="21">Coolant</text>
+<text x="0.254" y="38.862" size="0.8128" layer="21">Enable</text>
+<text x="2.286" y="41.402" size="0.8128" layer="21">Dir</text>
+<text x="1.016" y="43.942" size="0.8128" layer="21">PWM</text>
+<text x="0.254" y="46.482" size="0.8128" layer="21">PWM 2</text>
+<text x="0" y="49.022" size="0.8128" layer="21">Coolant</text>
 <text x="15.24" y="41.91" size="1.27" layer="21" rot="SR270" align="center">Lucas MOLIA
 &amp;
 Renaud ADNET</text>
@@ -212,6 +212,12 @@ Renaud ADNET</text>
 <wire x1="17.272" y1="34.29" x2="12.954" y2="34.29" width="0.254" layer="21"/>
 <wire x1="12.954" y1="34.29" x2="11.684" y2="35.56" width="0.254" layer="21"/>
 <wire x1="11.684" y1="35.56" x2="11.684" y2="48.26" width="0.254" layer="21"/>
+<text x="66.802" y="36.576" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
+<text x="41.402" y="36.576" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
+<text x="91.948" y="36.576" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
+<text x="91.948" y="13.716" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
+<text x="66.802" y="13.716" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
+<text x="41.402" y="13.716" size="0.6096" layer="21" rot="R270" align="center">DRV8825</text>
 </plain>
 <libraries>
 <library name="arduino_due_shield">
