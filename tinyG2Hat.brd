@@ -141,15 +141,10 @@
 <plain>
 <wire x1="-0.254" y1="56.134" x2="-0.254" y2="1.778" width="0" layer="20"/>
 <wire x1="1.524" y1="0.254" x2="98.806" y2="0.254" width="0" layer="20"/>
-<wire x1="99.822" y1="1.27" x2="99.822" y2="4.064" width="0" layer="20"/>
-<wire x1="99.822" y1="4.064" x2="101.6" y2="5.842" width="0" layer="20"/>
-<wire x1="101.6" y1="5.842" x2="101.6" y2="38.862" width="0" layer="20"/>
-<wire x1="101.6" y1="38.862" x2="99.822" y2="40.64" width="0" layer="20"/>
 <wire x1="62.23" y1="56.896" x2="0.762" y2="56.896" width="0" layer="20"/>
 <wire x1="0.762" y1="56.896" x2="-0.254" y2="56.134" width="0" layer="20" curve="90"/>
 <wire x1="-0.254" y1="1.778" x2="1.524" y2="0.254" width="0" layer="20" curve="90"/>
 <wire x1="98.806" y1="0.254" x2="99.822" y2="1.27" width="0" layer="20" curve="90"/>
-<wire x1="99.822" y1="40.64" x2="99.822" y2="67.818" width="0" layer="20"/>
 <wire x1="99.822" y1="67.818" x2="98.552" y2="69.088" width="0" layer="20"/>
 <wire x1="98.552" y1="69.088" x2="64.262" y2="69.088" width="0" layer="20"/>
 <wire x1="64.262" y1="69.088" x2="62.992" y2="67.818" width="0" layer="20"/>
@@ -224,7 +219,8 @@ Renaud ADNET</text>
 <text x="60.706" y="20.32" size="0.6096" layer="21" rot="R90" align="center">100µF</text>
 <text x="35.306" y="20.066" size="0.6096" layer="21" rot="R90" align="center">100µF</text>
 <dimension x1="103.632" y1="0.254" x2="103.632" y2="68.834" x3="105.664" y3="34.544" textsize="1.778" layer="20"/>
-<dimension x1="-0.254" y1="-2.54" x2="101.6" y2="-2.54" x3="50.673" y3="-3.302" textsize="1.778" layer="20"/>
+<wire x1="99.822" y1="1.27" x2="99.822" y2="67.818" width="0" layer="20"/>
+<dimension x1="-0.254" y1="-4.064" x2="99.822003125" y2="-4.064" x3="49.784" y3="-4.064" textsize="1.778" layer="20" dtype="radius"/>
 </plain>
 <libraries>
 <library name="arduino_due_shield">
@@ -607,10 +603,6 @@ Renaud ADNET</text>
 <pad name="GND_2" x="93.853" y="8.636" drill="1.0668" shape="square" rot="R90"/>
 <pad name="GND_3" x="96.393" y="8.636" drill="1.0668" rot="R90"/>
 <wire x1="97.4344" y1="54.3052" x2="98.9584" y2="52.7812" width="0.254" layer="22"/>
-<wire x1="98.9584" y1="41.3512" x2="101.4984" y2="38.8112" width="0.254" layer="21"/>
-<wire x1="101.4984" y1="38.8112" x2="101.4984" y2="6.0452" width="0.254" layer="21"/>
-<wire x1="101.4984" y1="6.0452" x2="98.9584" y2="3.5052" width="0.254" layer="21"/>
-<wire x1="98.9584" y1="3.5052" x2="98.9584" y2="1.9652" width="0.254" layer="21"/>
 <wire x1="98.9584" y1="1.9652" x2="97.9584" y2="0.9652" width="0.254" layer="21" curve="-90"/>
 <wire x1="97.9584" y1="0.9652" x2="0.8984" y2="0.9652" width="0.254" layer="21"/>
 <wire x1="0.8984" y1="0.9652" x2="-0.1016" y2="1.9652" width="0.254" layer="21" curve="-90"/>
@@ -767,6 +759,9 @@ Renaud ADNET</text>
 <pad name="NC_2" x="27.806" y="3.543" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
 <pad name="IOREF" x="30.346" y="3.543" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="RESET" x="32.893" y="3.555" drill="1.016" diameter="1.8796" rot="R90"/>
+<wire x1="98.9584" y1="6.0198" x2="98.9584" y2="5.969" width="0.254" layer="21"/>
+<wire x1="98.9584" y1="5.969" x2="98.9584" y2="1.9652" width="0.254" layer="21"/>
+<wire x1="98.9584" y1="6.0198" x2="98.9584" y2="41.529" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
